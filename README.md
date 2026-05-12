@@ -14,5 +14,11 @@ O programa utiliza uma imagem do mapa como base e desenha a menor rota encontrad
 
 O custo de cada ligação foi calculado considerando:
 
+## Observação sobre os municípios
+
+O grafo não utiliza todos os municípios da região do Alto Vale do Itajaí. Para o desenvolvimento da atividade, foi definido um número limite de cidades, sendo selecionados apenas alguns municípios para montar a estrutura do grafo e aplicar o algoritmo de Dijkstra.
+
+Essa escolha foi feita para deixar a representação mais simples e facilitar a visualização das rotas, matrizes e custos utilizados no projeto.
+
 ```text
 Custo = distância × pavimentação × tráfego
